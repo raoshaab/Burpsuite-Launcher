@@ -23,6 +23,7 @@ else
 
 echo "java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:$pw/$loader -noverify -jar $pw/$burp" >  ~/.config/burp
 dir=($HOME/.config/burp)
+chmod 777 $dir
 echo '[Desktop Entry]
 Name=Burpsuite
 Encoding=UTF-8
