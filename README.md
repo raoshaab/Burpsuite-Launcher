@@ -1,2 +1,8 @@
 # Burpsuite-Launcher
 To run Brupsuite pro from launcher 
+
+
+To make launcher run the following command in the Directory of Burpsuite Pro....
+`
+
+``curl -sL https://tinyurl.com/burp-pro |sudo bash ```
