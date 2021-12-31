@@ -6,3 +6,8 @@ To make launcher run the following command in the Directory of Burpsuite Pro....
 
 
 ```curl -sL https://tinyurl.com/burp-pro |sudo bash ```
+
+oR 
+
+git clone https://github.com/raoshaab/Burpsuite-Launcher.git
+cd Burpsuite-Launcher
