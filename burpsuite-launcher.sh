@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pw=$(pwd) 
-loader=$(ls|grep -i loader)
+loader=$(ls|grep -v old|grep -i loader)
 burp=$(ls|grep -i pro)
 
 
