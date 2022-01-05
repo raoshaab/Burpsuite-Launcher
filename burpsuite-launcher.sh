@@ -21,4 +21,4 @@ Categories=03-webapp-analysis;03-06-web-application-proxies;
 X-Kali-Package=burpsuite
 StartupWMClass=burp-StartBurp' > ~/.local/share/applications/kali-burpsuite.desktop
 
-echo -e "Launcher is set \n Just rock !! ~~~~~~~~~" 
+echo -e "Launcher is set \nJust rock !! ~~~~~~~~~" 
