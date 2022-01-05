@@ -6,3 +6,4 @@ Run below command
 
 ```curl -sL https://tinyurl.com/burp-pro | bash ```
 
+![](https://raw.githubusercontent.com/raoshaab/OS-project-/master/out.gif)
