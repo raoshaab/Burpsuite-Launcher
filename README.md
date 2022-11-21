@@ -1,14 +1,19 @@
-## Burpsuite-Launcher
-To run Brupsuite pro from launcher 
+<h1 align="center">
+Burpsuite-Launcher
+</h1>
 
-Visit Burpsuite Directory & Open Terminal  
-Run below command
+
+
+
+
+## 🛠️ Usage
+
+1. Visit Burpsuite Directory
+2. Open Terminal  
+3. Run below command
 
 ```
-
 curl -sL https://tinyurl.com/burp-pro | bash 
-
-
 ```
 
 ## Demo
