@@ -1,9 +1,10 @@
 <h1 align="center">
 Burpsuite-Launcher
+
+
+![](https://visitor-badge.glitch.me/badge?page_id=raoshaab.burpsuite-launcher)
+
 </h1>
-
-
-
 
 
 ## 🛠️ Usage
