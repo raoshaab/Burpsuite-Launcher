@@ -1,8 +1,20 @@
 #!/bin/bash
 
-banner='BurpSuite Launcher '
+function ban(){
+banner='
 
+   ___                            _ _           __                  _               
+  / __\_   _ _ __ _ __  ___ _   _(_) |_ ___    / /  __ _ _   _  ___| |__   ___ _ __ 
+ /__\// | | |  __|  _ \/ __| | | | | __/ _ \  / /  / _` | | | |/ __|  _ \ / _ \  __|
+/ \/  \ |_| | |  | |_) \__ \ |_| | | ||  __/ / /__| (_| | |_| | (__| | | |  __/ |   
+\_____/\__,_|_|  | .__/|___/\__,_|_|\__\___| \____/\__,_|\__,_|\___|_| |_|\___|_|   
+                 |_|                                                                
 
+'
+
+while IFS= read -r -n 1 -d '' c; do   printf '\e[38;5;%dm%s\e[0m'  "$((RANDOM%255+1))" "$c"; done <<<$banner
+}
+ban
 RED="\e[31m"
 GREEN="\e[32m"
 
@@ -31,12 +43,11 @@ Type=Application
 Categories=03-webapp-analysis;03-06-web-application-proxies;
 X-Kali-Package=burpsuite
 StartupWMClass=burp-StartBurp
-EOFn
+EOF
 else
-    echo -e "${RED}
     echo "Can not Create Launcher in this system"&& exit
 fi
-
+clear && ban
 echo -e "${RED}         +-----------+------------------+-----------------------+
          | You     | are    | Ready   |   For     |    Lauch    |
          ${GREEN}+-----------+------------------+-----------------------+
