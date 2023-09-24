@@ -2,7 +2,7 @@
 Burpsuite-Launcher
   
 ![](./assets/banner-burp.png)
-    
+[![HitCount](https://hits.dwyl.com/raoshaab/raoshaab/Burpsuite-Launcher.svg?style=flat-square)](http://hits.dwyl.com/raoshaab/raoshaab/Burpsuite-Launcher)    
 ![](https://visitor-badge.glitch.me/badge?page_id=raoshaab.burpsuite-launcher)
 
  
